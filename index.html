@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional portfolio for Jerry Remien — career overview, experience, and selected projects."
+    />
+    <title>Jerry Remien | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#top">Jerry Remien</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Software Developer • Technical Lead</p>
+            <h1>Building software that drives real business outcomes.</h1>
+            <p class="lead">
+              I’m Jerry Remien, a software developer and technical lead focused on building
+              reliable, scalable solutions that help teams work smarter and deliver with confidence.
+              My experience spans software engineering, cross-functional leadership, and turning
+              complex requirements into practical tools and systems that create measurable value.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="JERRY_REMIEN_Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+              <a class="button secondary" href="#projects">View Projects</a>
+            </div>
+            <ul class="quick-stats" aria-label="Quick summary">
+              <li><strong>Software</strong><span>Development</span></li>
+              <li><strong>Technical</strong><span>Leadership</span></li>
+              <li><strong>Delivery</strong><span>Focus</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="photo-card">
+              <img
+                src="assets/Jerry_Remien_0082.jpg"
+                alt="Professional headshot of Jerry Remien"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section muted-section">
+        <div class="container narrow">
+          <p class="section-kicker">About</p>
+          <h2>Career focus and professional approach</h2>
+          <p>
+            I am a software developer and technical lead with a strong focus on building
+            dependable systems and guiding teams through execution with clarity and purpose.
+            My work sits at the intersection of engineering, problem solving, and leadership,
+            where I help turn complex requirements into resilient, useful solutions.
+          </p>
+          <p>
+            I enjoy partnering with teams to improve delivery, clarify technical direction,
+            and build software that supports both business goals and end-user experience.
+            My approach blends hands-on development with thoughtful leadership, helping teams
+            move from idea to impact with momentum and accountability.
+          </p>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Experience</p>
+            <h2>Career timeline</h2>
+          </div>
+
+          <div class="timeline" aria-label="Work experience timeline">
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <p class="time-range">Current</p>
+                <h3>Technical Lead / Software Developer - ABN AMRO Clearing USA</h3>
+                <p>
+                  Leading engineering initiatives, guiding technical direction, and delivering
+                  software solutions with a focus on quality, maintainability, and business impact.
+                </p>
+                <ul>
+                  <li>Working in a global and agile team to build the next generation of trade capture and processing systems in AWS</li>
+                  <li>Provide technical leadership across development efforts and team collaboration.</li>
+                  <li>Translate business needs into scalable, efficient engineering solutions.</li>
+                  <li>Drive quality, process improvement, and execution across core initiatives.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <p class="time-range">Previous</p>
+                <h3>Software Developer - ABN AMRO Clearing USA</h3>
+                <p>
+                  Designing, developing, maintaining, and supporting fault tolerant trade and clearing capture systems; 
+                  Sequentially processing millions of transactions daily from over two hundred input sources.
+                </p>
+                <ul>
+                  <li>Delivered application improvements and workflow enhancements.</li>
+                  <li>Partnered with stakeholders to define requirements and maintain momentum.</li>
+                  <li>Helped improve service quality through maintainable and thoughtful engineering.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <p class="time-range">Earlier Career</p>
+                <h3>Software Development Intern - ABN AMRO Clearing USA</h3>
+                <p>
+                  Developed a foundation in technical execution, communication, and process
+                  improvement across fast-moving, team-oriented environments.
+                </p>
+                <ul>
+                  <li>Wrote a program to compare application configuration files as part of the deployment process 
+                    reducing the number of errors in production deployments</li>
+                  <li>Implemented a process to package C# code into NuGet packages while maintaining the ability 
+                    to debug the packaged code by automatically fetching the source files from a remote git server on the fly</li>
+                  <li>Implemented a code documentation solution with Doxygen</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section muted-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Projects</p>
+            <h2>Selected work</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <span class="tag">AWS</span>
+              <h3>Built Cloud Solutions</h3>
+              <p>
+                Migrated applications built for on-premises infrastructure to AWS, leveraging cloud-native services to improve scalability, reoverability, reliability, and maintainability.
+              </p>
+              <ul>
+                <li>Leveraged serverless architecture to reduce operational overhead</li>
+                <li>Improved observability</li>
+                <li>Centralized metrics</li>
+              </ul>
+            </article>
+            <article class="project-card">
+              <span class="tag">Operations</span>
+              <h3>Fixed Income Clearing and Settlement</h3>
+              <p>
+                Built a system to interface with FICC as part of the fixed income trade capture and settlement process 
+              </p>
+              <ul>
+                <li>Captured and processed trade data</li>
+                <li>Data streamed efficiently to downstream systems</li>
+                <li>Built an automated messaging system to interface with FICC to facilitate settlement</li>
+              </ul>
+            </article>
+            
+            <article class="project-card">
+              <span class="tag">Modernization</span>
+              <h3>Modernizing Legacy Systems</h3>
+              <p>
+                Leveraged technologies such as Apache Kafka to improve system throughput, reduce latency, and enhance overall performance and scalability.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="skills-wrap">
+            <div>
+              <p class="section-kicker">Capabilities</p>
+              <h2>Skills and strengths</h2>
+            </div>
+            <div class="skills-list" aria-label="Professional skills">
+              <span>Software Development</span>
+              <span>Technical Leadership</span>
+              <span>Architecture</span>
+              <span>System Design</span>
+              <span>Project Delivery</span>
+              <span>Process Improvement</span>
+              <span>Stakeholder Communication</span>
+              <span>Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Let’s connect</h2>
+        </div>
+        <div class="contact-links">
+          <a href="JERRY_REMIEN_Resume.pdf" target="_blank" rel="noreferrer">Resume PDF</a>
+          <a href="https://www.linkedin.com/in/jerry-t-remien/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/jremien" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> Jerry Remien. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
